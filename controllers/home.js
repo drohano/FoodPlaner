@@ -1,7 +1,7 @@
 var path = require('path');
 
  exports.Index = function(req,res){
-    res.sendFile(path.resolve('public/Views/test1.html'));
+    res.sendFile(path.resolve('public/Views/index.html'));
 };
 
 /* exports.Login = function(req,res){
